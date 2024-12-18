@@ -1,0 +1,10 @@
+.stat-card {
+	/* min-height: 8rem; */
+	text-align: start;
+}
+
+.stat-card .card-body {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+}
