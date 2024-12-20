@@ -1,0 +1,141 @@
+/* General container styling */
+.outfit-creator-container {
+	padding: 20px;
+	background-color: #f9f9f9;
+}
+
+/* Section titles */
+.section-title {
+	font-size: 1.5em;
+}
+
+/* Input field styling */
+.outfit-name-input {
+	margin-bottom: 20px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+}
+
+/* Card styling for wardrobe items */
+.wardrobe-card {
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+	height: 100%;
+}
+
+.wardrobe-card:hover {
+	transform: scale(1.02);
+}
+
+.selected-card {
+	border: 2px solid #b003b0;
+}
+
+/* Create outfit button */
+.create-outfit-button {
+	background-color: #b003b0;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.create-outfit-button:hover {
+	background-color: purple;
+}
+
+/* Outfits section styling */
+/* .outfits-section {
+	padding-left: 20px;
+} */
+
+.outfit-card {
+	position: relative;
+	transition: 0.3s ease-in-out;
+	height: 100%;
+}
+
+.outfit-card:hover {
+	transform: scale(1.02);
+}
+
+/* Trashcan delete icon */
+.delete-icon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	color: #b003b0;
+}
+
+.delete-icon:hover {
+	color: #800080;
+}
+
+/* Header styling */
+.header {
+	background-color: #800080; /* Purple background color */
+	color: white; /* Text color */
+	padding: 15px; /* Add some padding */
+	display: flex; /* Use flexbox for alignment */
+	border-radius: 0px; /* Optional: rounded corners */
+	margin-bottom: 20px; /* Space below the header */
+	font-size: 1.2rem;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.generate-suggestions-button {
+	margin-right: 10px;
+	background-color: #b003b0;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.generate-suggestions-button:hover {
+	background-color: #800080;
+}
+
+.wardrobe-items-scrollable {
+	height: 60vh;
+	overflow-y: overlay;
+	overflow-x: hidden;
+	/* border: 1px solid #ddd; */
+	padding: 10px;
+	background-color: #ffffff;
+	/* margin-top: 15px; */
+}
+
+.outfits-items-scrollable {
+	height: 72.3vh;
+	overflow-y: overlay;
+	overflow-x: hidden;
+
+	/* border: 1px solid #ddd; */
+	padding: 10px;
+	background-color: #ffffff;
+	/* margin-top: 15px; */
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-bottom: 10px;
+}
+
+.image-container img {
+	width: 100%;
+	max-width: 150px;
+	height: 150px;
+	object-fit: contain;
+	border-radius: 8px;
+	/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}

@@ -1,0 +1,21 @@
+{
+  "name": "restaurants_graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dylan",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@apollo/subgraph": "^2.9.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "mongodb": "^6.11.0"
+  }
+}

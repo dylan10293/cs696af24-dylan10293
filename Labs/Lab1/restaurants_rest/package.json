@@ -1,0 +1,21 @@
+{
+  "name": "restaurants_rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dylan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bull": "^4.16.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "redis": "^4.7.0"
+  }
+}
